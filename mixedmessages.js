@@ -3,7 +3,3 @@ const generateRandomMessage = () => {
 
 
 }
-
-const randomMessages = () => {
-    
-}
