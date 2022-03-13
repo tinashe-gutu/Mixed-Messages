@@ -18,10 +18,11 @@ const randomNum = () => {
 const createMessage = () =>{
     const arrOfMessage = []
     const when = mixedMessages.time[randomNum()];
-    console.log(when)
     const affirm = mixedMessages.affirmative[randomNum()];
     const what = mixedMessages.event[randomNum()];
     arrOfMessage.push(when,affirm,what);
-    return arrOfMessage;
+    return arrOfMessage.join(' ');
 }
+
+
 console.log(createMessage());
