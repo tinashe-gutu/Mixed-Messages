@@ -1,9 +1,3 @@
-
-const generateRandomMessage = (num) => {
-
-
-}
-
 const mixedMessages = {
     time: [['Today'], ['Tomorrow'], ['This Week']],
     affirmative: [['you will'],['you wont'], ['you might'] ],
